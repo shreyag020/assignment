@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Pokemon</title>
+    <link href="/styles/styles.css" rel="stylesheet">
+    <link href="/images/pokemon_ball.png?v=1" rel="icon">
+</head>
+
+<body>
+    <div class="header_logo">
+        <img src="images/pokemon.png" alt="Pokemon" height="100" width="400">
+    </div>
+
+    <div class="actions">
+        <div class="actions_container">
+            <input id="search-name" class="input" type="text" placeholder="Filter Pokemon Name">
+            <select id="search-type" class="input">
+                <option value="">Filter Pokemon Type</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="card_container" id="card_container">
+        <section class="cards" id="cards"></section>
+    </div>
+    <script src="/scripts/fetch-pokemon.js"></script>
+</body>
+
+</html>
